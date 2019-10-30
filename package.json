@@ -7,7 +7,7 @@
     "test": "jest",
     "test:update": "jest -u",
     "test:coverage": "jest --coverage",
-    "run:ios": "react-native run-ios",
+    "run:ios": "react-native run-ios --simulator='iPhone 11 Pro'",
     "run:android": "react-native run-android",
     "lint": "./node_modules/eslint/bin/eslint.js src",
     "lint:fix": "./node_modules/eslint/bin/eslint.js src --fix",
@@ -43,7 +43,10 @@
     "redux-persist": "^5.10.0",
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0",
-    "victory-native": "^31.0.0"
+    "victory-native": "^31.0.0",
+    "@react-native-community/async-storage": "^1.6.2",
+    "react-native-get-random-values": "^1.1.0",
+    "@cruxpay/js-sdk": "0.1.2"
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
